@@ -331,3 +331,4 @@ def get_link_title(doctype, docname):
 		return frappe.db.get_value(doctype, docname, meta.title_field)
 
 	return docname
+
